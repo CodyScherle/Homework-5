@@ -16,6 +16,8 @@
 		C89A314429EEF09400EAAB70 /* Homework_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89A314329EEF09400EAAB70 /* Homework_5Tests.swift */; };
 		C89A314E29EEF09400EAAB70 /* Homework_5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89A314D29EEF09400EAAB70 /* Homework_5UITests.swift */; };
 		C89A315029EEF09400EAAB70 /* Homework_5UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89A314F29EEF09400EAAB70 /* Homework_5UITestsLaunchTests.swift */; };
+		C89A315D29F2124800EAAB70 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89A315C29F2124800EAAB70 /* VotingViewController.swift */; };
+		C89A315F29F2139800EAAB70 /* TBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89A315E29F2139800EAAB70 /* TBViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C89A314929EEF09400EAAB70 /* Homework 5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89A314D29EEF09400EAAB70 /* Homework_5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_5UITests.swift; sourceTree = "<group>"; };
 		C89A314F29EEF09400EAAB70 /* Homework_5UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_5UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C89A315C29F2124800EAAB70 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		C89A315E29F2139800EAAB70 /* TBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		C89A312029EEF09300EAAB70 = {
 			isa = PBXGroup;
 			children = (
+				C89A315E29F2139800EAAB70 /* TBViewController.swift */,
+				C89A315C29F2124800EAAB70 /* VotingViewController.swift */,
 				C89A312B29EEF09300EAAB70 /* Homework 5 */,
 				C89A314229EEF09400EAAB70 /* Homework 5Tests */,
 				C89A314C29EEF09400EAAB70 /* Homework 5UITests */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89A315F29F2139800EAAB70 /* TBViewController.swift in Sources */,
 				C89A313129EEF09300EAAB70 /* ViewController.swift in Sources */,
 				C89A312D29EEF09300EAAB70 /* AppDelegate.swift in Sources */,
 				C89A312F29EEF09300EAAB70 /* SceneDelegate.swift in Sources */,
+				C89A315D29F2124800EAAB70 /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
